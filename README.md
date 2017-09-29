@@ -2,4 +2,4 @@
 # Висал Акберов
 ## Мои домашние задания
 
-[Урок 4 и 5](studvis2010.github.io/lesson_4_5 "Описание") - Знакомство с HTML и CSS
+[Урок 4 и 5](https://studvis2010.github.io/lesson_4_5 "Описание") - Знакомство с HTML и CSS
