@@ -1,0 +1,75 @@
+h1 {
+	/* Типографика */
+	text-align: center;
+	text-transform: uppercase;
+	color: darkslategray;
+}
+
+h2 {
+	margin: 10;
+	text-align: center;
+	color: darkslategray;
+}
+
+h4, h5 {
+	margin-top: 50px;
+	text-align: center;
+	font-size: 20px;
+}
+
+p {
+	/* Типографика */
+	text-align: justify;
+}
+
+body {
+	margin: auto;
+	width: 500px;
+	background-color: khaki;
+}
+
+.content {
+	margin: auto;
+	width: 100%;
+}
+
+ul {
+ 	/* Блочная модель */
+	display: block;
+	margin:auto;
+	width: 250px;
+	padding: 0;
+
+	/* Оформление */
+	border: 4px dashed ;
+	color: darkkhaki;
+	list-style: none;
+}
+
+li {
+	margin: 15px;
+	padding: 0px;
+	text-transform: uppercase;
+	text-align: center;
+	
+}
+
+a {
+	color: darkslategray;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+.line-through {
+	text-decoration: line-through;
+}
+
+.italic {
+	font-style: italic;
+}

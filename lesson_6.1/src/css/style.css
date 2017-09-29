@@ -1,0 +1,16 @@
+* {
+	box-sizing: border-box;
+}
+
+.block {
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	margin-top: -200px;
+	margin-left:-150px;
+	height: 400px;
+	width: 300px;
+	padding: 20px 30px;
+	border: 2px solid gray;
+	background-color: white;
+}
