@@ -179,3 +179,8 @@ section {
     text-align: center;
   }
 }
+@media (max-width: 767px) and (max-width: 376px) {
+  .main-content h1 {
+    font-size: 25px;
+  }
+}
