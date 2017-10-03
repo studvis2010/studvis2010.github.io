@@ -14,3 +14,4 @@
 [Практика](https://studvis2010.github.io/module_5_practice_1/src/ "Описание") - Модуль 5. Практика. Часть 1  
 [Урок 14](https://studvis2010.github.io/lesson_14/src/ "Описание") - Подключение шрифтов  
 [Практика](https://studvis2010.github.io/m5_p2/src/ "Описание") - Модуль 5. Практика. Часть 2  
+[Урок 15](https://studvis2010.github.io/lesson_15/src/ "Описание") - Псевдоклассы и псевдоэлементы  
