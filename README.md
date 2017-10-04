@@ -16,3 +16,4 @@
 [Практика](https://studvis2010.github.io/m5_p2/src/ "Описание") - Модуль 5. Практика. Часть 2  
 [Урок 15](https://studvis2010.github.io/lesson_15/src/ "Описание") - Псевдоклассы и псевдоэлементы  
 [Практика](https://studvis2010.github.io/m5_p3/src/ "Описание") - Модуль 5. Практика. Часть 3  
+[Урок 16](https://studvis2010.github.io/lesson_16/src/ "Описание") - Слайдеры 
