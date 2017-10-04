@@ -1,33 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Слайдеры</title>
-	<link rel="stylesheet" href="css/bootstrap.css">
-	<link  href="//cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet"> 
-</head>
-<body>
-	<div class="container">
-		<div class="section">
-			<div class="row">
-				<div class="col-lg-6 col-lg-offset-3">
-					<div  class="fotorama" 
-								data-nav="thumbs" 
-								data-width="500"
-								data-allowfullscreen="native"
-								data-loop="true"
-								data-autoplay="4000"
-								data-stopautoplayontouch="false">
-						<img src="img/1.png" alt="">
-						<img src="img/2.png" alt="">
-						<img src="img/3.png" alt="">
-					</div>
-				</div>
-			</div>	
-		</div>
-	</div>
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-	
-	<script src="//cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
-</body>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Стартовая страница</title>
+    <!-- Bootstrap -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!--Ссылка на таблицу стилей  -->
+    
+    <link rel="stylesheet" href="css/style.css"></link>
+      </head>
+  <body>
+    
+<div class="container">
+<!-- 2. Add images to <div class="fotorama"></div>. -->
+<h1>Слайдер по красоте</h1>
+<div class="row">
+
+<div class="col-md-10 col-md-offset-1">
+	<div class="fotorama" data-nav="thumbs" data-allowfullscreen="native" data-autoplay="4000" data-loop="true">
+  <a href="https://s.fotorama.io/1_thumb.jpg" data-caption="Первая"><img src="https://s.fotorama.io/1.jpg" alt="картинка1" ></a>
+  <a href="https://s.fotorama.io/2_thumb.jpg" data-caption="Вторая"><img src="https://s.fotorama.io/2.jpg" alt="картинка2" ></a>
+  <a href="https://s.fotorama.io/3_thumb.jpg" data-caption="Третья"><img src="https://s.fotorama.io/3.jpg" alt="картинка3" ></a>
+</div>
+</div>
+</div>
+</div>
+<!-- 3. Enjoy! -->
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> <!-- 33 KB -->
+  <link  href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet"> <!-- 3 KB -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script> <!-- 16 KB -->
+  
+  </body>
 </html>
