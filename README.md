@@ -11,9 +11,12 @@
 [Урок 9](https://studvis2010.github.io/lesson_9/src/ "Описание") - Верстка при помощи Bootstrap  
 [Урок 10](https://studvis2010.github.io/lesson_10/src/ "Описание") - Верстка при помощи Bootstrap  
 [Урок 13](https://studvis2010.github.io/lesson_13/src/ "Описание") - Pixel Perfect  
-[Практика](https://studvis2010.github.io/module_5_practice_1/src/ "Описание") - Модуль 5. Практика. Часть 1  
 [Урок 14](https://studvis2010.github.io/lesson_14/src/ "Описание") - Подключение шрифтов  
-[Практика](https://studvis2010.github.io/m5_p2/src/ "Описание") - Модуль 5. Практика. Часть 2  
 [Урок 15](https://studvis2010.github.io/lesson_15/src/ "Описание") - Псевдоклассы и псевдоэлементы  
+[Урок 16](https://studvis2010.github.io/lesson_16/src/ "Описание") - Слайдеры  
+
+## Практические уроки  
+[Практика](https://studvis2010.github.io/module_5_practice_1/src/ "Описание") - Модуль 5. Практика. Часть 1  
+[Практика](https://studvis2010.github.io/m5_p2/src/ "Описание") - Модуль 5. Практика. Часть 2  
 [Практика](https://studvis2010.github.io/m5_p3/src/ "Описание") - Модуль 5. Практика. Часть 3  
-[Урок 16](https://studvis2010.github.io/lesson_16/src/ "Описание") - Слайдеры 
+[Практика](https://studvis2010.github.io/m5_p4/src/ "Описание") - Модуль 5. Практика. Часть 4  
