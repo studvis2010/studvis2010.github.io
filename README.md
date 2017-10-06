@@ -14,7 +14,7 @@
 [Урок 14](https://studvis2010.github.io/lesson_14/src/ "Описание") - Подключение шрифтов  
 [Урок 15](https://studvis2010.github.io/lesson_15/src/ "Описание") - Псевдоклассы и псевдоэлементы  
 [Урок 16](https://studvis2010.github.io/lesson_16/src/ "Описание") - Слайдеры  
-[Урок 17](https://studvis2010.github.io/lesson_17/src/ "Описание") - Модальное окно  
+[Урок 17](https://studvis2010.github.io/lessons_17/src/ "Описание") - Модальное окно  
 
 ## Практические уроки  
 [Практика](https://studvis2010.github.io/module_5_practice_1/src/ "Описание") - Модуль 5. Практика. Часть 1  
