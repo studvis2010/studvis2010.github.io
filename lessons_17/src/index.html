@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Сухофрукты</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	
+	<button id="#popup" class="open-popup-link">Удалить файл</button>
+
+	<div id="popup" class="popup-win mfp-hide ">
+	  <div class="popup-content">
+	  	<p>Вы действительно  хотите удалить файл?</p>
+			<button class="yes">Да</button>
+      <button class="no">Нет</button>
+	  </div>
+	</div>
+
+
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+	<script src="js/jquery.magnific-popup.min.js"></script>
+
+	<script>
+		$('button').magnificPopup({
+		  items: {
+		      src: '#popup',
+		      type: 'inline'
+		  }
+		});
+	</script>
+</body>
+</html>
