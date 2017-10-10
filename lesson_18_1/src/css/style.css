@@ -1,0 +1,22 @@
+.question {
+	height: 750px;
+	background: url(../img/bg.png) center center repeat-y;
+	color: #535353;
+}
+.header {
+	margin-top: 150px;
+	margin-bottom: 50px;
+	color: #0bbaf0;
+	text-align: center;
+}
+
+ /* Оформление аккордеона */
+ .panel-group {
+ 	width: 660px;
+ }
+ .panel-default>.panel-heading {
+ 	background-color: #0bbaf0;
+ 	color: white;
+ 	border-radius: 0px;
+ 	text-align: center;
+ }
