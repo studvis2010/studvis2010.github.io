@@ -15,6 +15,8 @@
 [Урок 15](https://studvis2010.github.io/lesson_15/src/ "Описание") - Псевдоклассы и псевдоэлементы  
 [Урок 16](https://studvis2010.github.io/lesson_16/src/ "Описание") - Слайдеры  
 [Урок 17](https://studvis2010.github.io/lessons_17/src/ "Описание") - Модальное окно  
+[Урок 18 ДЗ 1](https://studvis2010.github.io/lessons_18_1/src/ "Описание") - Табы  
+[Урок 18 ДЗ 2](https://studvis2010.github.io/lessons_18_2/src/ "Описание") - Аккордеон  
 
 ## Практические уроки  
 [Практика](https://studvis2010.github.io/module_5_practice_1/src/ "Описание") - Модуль 5. Практика. Часть 1  
