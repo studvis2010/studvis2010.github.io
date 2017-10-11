@@ -1,0 +1,175 @@
+/* Базовый контейнер табов */
+.tabs {
+	min-width: 320px;
+	max-width: 600px;
+	padding: 0px;
+	margin: 0 auto;
+	padding-top: 100px;
+}
+/* Стили секций с содержанием */
+.tabs>section {
+	display: none;
+	padding: 15px;
+	width: 550px;
+	background: #0497c4;
+	border: 1px solid #ddd;
+	border-radius: 0 7px 7px 7px;
+}
+.tabs>section>p {
+
+}
+/* Описываем анимацию свойства opacity */
+ 
+@-webkit-keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+/* Прячем чекбоксы */
+.tabs>input {
+	display: none;
+	position: absolute;
+}
+/* Стили переключателей вкладок (табов) */
+.tabs>label {
+	display: inline-block;
+	margin: 0 0 -1px;
+	padding: 10px 25px;
+	font-weight: 600;
+	text-align: center;
+	color: #080808;
+	border: 0px solid #ddd;
+	border-width: 1px 1px 1px 1px;
+	background: #ffffff;
+	border-bottom: none;
+	border-top-right-radius: 6px;
+	border-top-left-radius: 6px;
+	font-family: 'MyriadPro Regular', sans-serif;
+	font-weight: 200;
+}
+/* Шрифт-иконки от Font Awesome в формате Unicode */
+.tabs>label:before {
+	font-family: fontawesome;
+	font-weight: normal;
+	margin-right: 10px;
+}
+/* Изменения стиля переключателей вкладок при наведении */
+ 
+.tabs>label:hover {
+	color: #888;
+	cursor: pointer;
+}
+/* Стили для активной вкладки */
+.tabs>input:checked+label {
+	color: white;
+	// border-top: 1px solid #009933;
+	// border-bottom: 1px solid #fff;
+	background: #0497c4;
+	border-bottom: none;
+	border-top-right-radius: 6px;
+	border-top-left-radius: 6px;
+	font-family: 'MyriadPro Regular', sans-serif;
+	font-weight: 500;
+
+	font-size: 24px;
+}
+/* Активация секций с помощью псевдокласса :checked */
+#tab1:checked~#content-tab1, #tab2:checked~#content-tab2, #tab3:checked~#content-tab3, #tab4:checked~#content-tab4 {
+	display: block;
+}
+/* Убираем текст с переключателей 
+* и оставляем иконки на малых экранах
+*/
+ 
+/* Мои стили */
+
+body {
+	background: url(../img/bg.png) center center repeat-y;
+	background-size: cover;
+	
+}
+
+.content {
+	width: 550px;
+	height: 350px;
+	border: 1px solid black;
+	border-radius: 3px;
+	background-color: black;
+	position: relative;
+}
+
+.content-input-wrap{
+	padding: 75px;
+
+}
+.content-input {
+	width:400px;
+	height: 60px;
+	margin-bottom: 20px;
+	background: url(../img/input.png);
+	border: none;
+	padding-left: 15px;
+	outline:none;
+}
+
+.text-red {
+	margin-left: 20px;
+	color: red;
+}
+
+.content-checkbox {
+	margin-left: 20px;
+}
+.text-checkbox {
+	color: gray;
+	display: inline;
+	vertical-align: top;
+
+}
+
+.content-button {
+	position: absolute ;
+	left: 445px;
+	top: 295px;
+}
+.content-button p {
+	position: absolute;
+	top: -12px;
+	right: 45px;
+
+	color: white;
+	font-family: 'MyriadPro Regular', sans-serif;
+	font-weight: 400;
+	font-size: 22px;
+}
+
+
+
+@media screen and (max-width: 680px) {
+	.tabs>label {
+		font-size: 0;
+	}
+	.tabs>label:before {
+		margin: 0;
+		font-size: 18px;
+	}
+}
+/* Изменяем внутренние отступы 
+*  переключателей для малых экранов
+*/
+@media screen and (max-width: 400px) {
+	.tabs>label {
+		padding: 15px;
+	}
+}
