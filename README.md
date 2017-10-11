@@ -18,6 +18,7 @@
 [Урок 18 ДЗ 1](https://studvis2010.github.io/lesson_18_1/src/ "Описание") - Аккордеон  
 [Урок 18 ДЗ 2](https://studvis2010.github.io/lesson_18_2/src/ "Описание") - Табы  
 [Урок 19](https://studvis2010.github.io/lesson_19/src/ "Описание") - Анимация CSS    
+[Урок 20](https://studvis2010.github.io/lesson_20/src/ "Описание") - Видео-фон  
 
 ## Практические уроки  
 [Практика](https://studvis2010.github.io/module_5_practice_1/src/ "Описание") - Модуль 5. Практика. Часть 1  
