@@ -1,0 +1,47 @@
+* {
+	box-sizing: border-box;
+}
+.contacts {
+	position: absolute;
+	left: 300px;
+	top: 0px;
+	padding: 25px 30px;
+	color: white;
+	background-color: #c60b0b;
+	width: 270px;
+	height: 300px;
+	text-align: center;
+}
+.contacts p {
+	margin-bottom: 25px;
+}
+a {
+	color: white;
+}
+
+
+.header-logo {
+	min-height: 120px;
+}
+.logo  {
+	margin-top: 10px;
+	// display: inline-block;
+	float: left;
+}
+.logo-text {
+	margin-top: 10px;
+	margin-left: 75px;
+	font-size: 16px;
+
+}
+.text-center {
+	margin-top: 20px;
+	font-size: 14px;
+	color: gray;
+}
+.text-number {
+	font-size: 22px;
+}
+.text-adress {
+	font-size: 14px;
+}
