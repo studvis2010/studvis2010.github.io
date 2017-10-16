@@ -11,7 +11,7 @@
     <meta name="description" content="Responsive HTML5 website landing page for developers and startups">
     <meta name="author" content="Xiaoying Riley at 3rd Wave Media">    
     <link rel="shortcut icon" href="favicon.ico">  
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
     <!-- Global CSS -->
     <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">   
     <!-- Plugins CSS -->
@@ -29,7 +29,17 @@
        }
    
    </style> -->
-    
+    <style>
+        .item-1 {
+            background-attachment: fixed;
+        }
+        .item-2 {
+            background-attachment: fixed;
+        }
+        .item-3 {
+            background-attachment: fixed;
+        }
+    </style>
 </head> 
 
 <body>
@@ -88,7 +98,7 @@
 			<!-- Wrapper for slides -->
 			<div class="carousel-inner">
     			
-				<div class="item item-1 active parallax-window" data-parallax="scroll" data-image-src="../src/assets/images/hero-1.jpg">
+				<div class="item item-1 active" data-stellar-background-ratio="0.5">
 					<div class="item-content container">
     					<div class="item-content-inner">
     				        
@@ -100,7 +110,7 @@
 					</div><!--//item-content-->
 				</div><!--//item-->
 				
-				<div class="item item-2 parallax-window" data-parallax="scroll" data-image-src="../src/assets/images/hero-2.jpg">
+				<div class="item item-2" data-stellar-background-ratio="0.5">
 					<div class="item-content container">
 						<div class="item-content-inner">
     				        
@@ -112,7 +122,7 @@
 					</div>
 				</div><!--//item-->
 				
-				<div class="item item-3 parallax-window" data-parallax="scroll" data-image-src="../src/assets/images/hero-3.jpg">
+				<div class="item item-3" data-stellar-background-ratio="0.5">
 					<div class="item-content container">
 						<div class="item-content-inner">
     				        
@@ -445,7 +455,8 @@
     <script src="assets/js/rellax.min.js"></script>   
 
     <script>
-        
+        var rellax = new Rellax('.rellax');
+        $.stellar();
     </script>    
 </body>
 </html> 
