@@ -20,6 +20,8 @@
 [Урок 19](https://studvis2010.github.io/lesson_19/src/ "Описание") - Анимация CSS    
 [Урок 20](https://studvis2010.github.io/lesson_20/src/ "Описание") - Видео-фон  
 [Урок 21](https://studvis2010.github.io/lesson_21/src/ "Описание") - Parallax эффект  
+[Урок 22](https://studvis2010.github.io/lesson_22/src/ "Описание") - Гео-карта  
+
 
 
 
