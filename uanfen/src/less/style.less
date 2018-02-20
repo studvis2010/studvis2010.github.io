@@ -1,0 +1,277 @@
+// Fonts 
+@font-face {
+    font-family: 'ProximaNova';
+    src: url('../fonts/ProximaNovaT-Thin.eot');
+    src: url('../fonts/ProximaNovaT-Thin.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ProximaNovaT-Thin.woff') format('woff'),
+        url('../fonts/ProximaNovaT-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+// Colors
+@text-color: #ffffff;
+@btn-color: black;
+@subtitle-color: #a47d5e;
+
+// Basic settings
+body {
+	.reg();
+}
+.reg {
+	font-family: 'ProximaNova', sans-serif;
+}
+.vol {
+	font-family: 'Vollkorn', serif;
+}
+.areg {
+	font-family: 'Alegreya', serif;
+}
+a {
+	text-decoration: none !important;
+}
+
+// Страница приветсвия
+.main {
+	color: @text-color;
+	background: url(../img/header/bg2.jpg)  center center no-repeat;
+	background-size: cover;
+	.header {
+		padding: 2rem 0rem;
+		margin-bottom: 10rem;
+		font-size: 2rem;
+		&-logo {
+			.vol();
+			font-size: 2.6rem;
+		}
+		&-nav {
+			text-align: right;
+			ul {
+				li {
+					list-style-type: none;
+					display: inline-block;
+					padding-right: 1rem;
+					a {
+						color: @text-color;
+					}
+				}
+			}
+		}
+	}
+
+	&-content {
+		padding-top: 5rem;
+		padding-bottom: 15rem;
+		&-head {
+			h1 {
+				margin: 0;
+				.vol();
+				font-size: 5rem;
+				text-shadow: 1px 2px 1px #3d3029;
+			}
+			p {
+				padding-top: 2rem;
+				font-size: 1.5rem;
+				text-shadow: 1px 2px 1px #3d3029;
+			}
+		}
+		&-contacts {
+			text-align: center;
+			font-size: 2.2rem;
+			line-height: 2.8rem;
+			text-shadow: 1px 2px 1px #3d3029;
+		}
+	}
+	&-button {
+		width: 20rem;
+		height: 5rem;
+		border-radius: 10px;
+		background: white;
+		border-style: none;
+		color: @btn-color;
+		.vol();
+		font-size: 2rem;
+	}
+}
+
+// О нас
+.about {
+	background: url(../img/about/bg-1.jpg) center center no-repeat;
+	background-size: cover;
+	padding: 10rem 0rem;
+	&-info {
+		text-align: center;
+		h2 {
+			.vol();
+			font-size: 5rem;
+			padding-bottom: 0;
+			margin: 0;
+		}
+		span {
+			font-size: 2.4rem;
+			.areg();
+			color: @subtitle-color;
+		}
+		p {
+			.reg();
+			text-align: justify;
+			margin-top: 2rem;
+			font-size: 2rem;
+			line-height: 4rem;
+		}
+	}
+	&-image {
+		text-align: center;
+		img {
+			border-radius: 1.5rem;
+		}
+	}
+}
+
+// Услуги
+.services {
+	background: url(../img/services/bg.jpg) center center no-repeat;
+	background-size: cover;
+	padding: 4rem 0rem;
+	color: @text-color;
+	.section-header {
+		text-align: center;
+		h2 {
+			.vol();
+			font-size: 5rem;
+		}
+		p {
+			color: @subtitle-color;
+			.areg();
+			font-size: 2rem;
+			padding: 0rem 0rem 2rem;
+		}
+	}
+	&-block {
+		.item {
+			padding: 2rem;
+			text-align: center;
+			img {
+				width: 90px;
+				padding-bottom: 1rem;
+			}
+			p {
+				.reg();
+				font-size: 1.6rem;
+			}
+		}
+	}
+
+}
+
+@media (max-width: 1199px) {
+	.about {
+		&-info {
+			h2 {
+				font-size: 4rem;
+			}
+		}
+	}
+}
+@media (max-width: 991px) {
+	.main {
+		.header {
+			&-logo {
+				font-size: 2.1rem;
+			}
+			&-nav {
+				padding-top: 0.2rem;
+				font-size: 1.5rem;
+			}
+		}
+		&-content {
+			padding: 5rem 0rem;
+			&-head {
+				text-align: center;
+				padding: 0rem 5rem;
+				p {
+					padding: 2rem 10rem;
+				}
+			}
+		}
+	}
+	.about {
+		&-info {
+			p {
+				padding: 2rem 12rem 1rem;
+			}
+		}
+	}
+}
+@media (max-width: 767px) {
+	.main {
+		.header {
+			margin: 0;
+			text-align: center;
+			&-nav {
+				ul { 
+					text-align: center;
+					padding: 0;
+					font-size: 1.5rem;
+				}
+			}
+		}
+		&-content {
+			&-head {
+				h1 {
+					font-size: 3rem;
+				}
+				p {
+					padding: 2rem 0rem;
+					text-align: justify;
+				}
+			}
+			&-contacts {
+				font-size: 1.8rem;
+				button {
+					margin-top: 2rem;
+				}
+			}
+		}
+	}
+	.about {
+		&-info {
+			p {
+				padding: 0;
+			}
+		}
+		&-image {
+			img {
+				width: 400px;
+			}
+		}
+	}
+}
+@media (max-width: 376px) {
+	.main {
+		.header {
+			&-nav {
+			}
+		}
+	}
+	.about {
+		padding-top: 5rem;
+		&-info {
+			h2 {
+				font-size: 3rem;
+			}
+			span {
+				font-size: 2rem;
+			}
+			p {
+				font-size: 2rem;
+				line-height: 3rem;
+			}
+		}
+		&-image {
+			padding-top: 2rem;
+			img {
+				width: 300px;
+			}
+		}
+	}
+}

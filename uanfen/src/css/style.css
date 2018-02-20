@@ -1,0 +1,219 @@
+@font-face {
+  font-family: 'ProximaNova';
+  src: url('../fonts/ProximaNovaT-Thin.eot');
+  src: url('../fonts/ProximaNovaT-Thin.eot?#iefix') format('embedded-opentype'), url('../fonts/ProximaNovaT-Thin.woff') format('woff'), url('../fonts/ProximaNovaT-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+body {
+  font-family: 'ProximaNova', sans-serif;
+}
+.reg {
+  font-family: 'ProximaNova', sans-serif;
+}
+.vol {
+  font-family: 'Vollkorn', serif;
+}
+.areg {
+  font-family: 'Alegreya', serif;
+}
+a {
+  text-decoration: none !important;
+}
+.main {
+  color: #ffffff;
+  background: url(../img/header/bg2.jpg) center center no-repeat;
+  background-size: cover;
+}
+.main .header {
+  padding: 2rem 0rem;
+  margin-bottom: 10rem;
+  font-size: 2rem;
+}
+.main .header-logo {
+  font-family: 'Vollkorn', serif;
+  font-size: 2.6rem;
+}
+.main .header-nav {
+  text-align: right;
+}
+.main .header-nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding-right: 1rem;
+}
+.main .header-nav ul li a {
+  color: #ffffff;
+}
+.main-content {
+  padding-top: 5rem;
+  padding-bottom: 15rem;
+}
+.main-content-head h1 {
+  margin: 0;
+  font-family: 'Vollkorn', serif;
+  font-size: 5rem;
+  text-shadow: 1px 2px 1px #3d3029;
+}
+.main-content-head p {
+  padding-top: 2rem;
+  font-size: 1.5rem;
+  text-shadow: 1px 2px 1px #3d3029;
+}
+.main-content-contacts {
+  text-align: center;
+  font-size: 2.2rem;
+  line-height: 2.8rem;
+  text-shadow: 1px 2px 1px #3d3029;
+}
+.main-button {
+  width: 20rem;
+  height: 5rem;
+  border-radius: 10px;
+  background: white;
+  border-style: none;
+  color: #000000;
+  font-family: 'Vollkorn', serif;
+  font-size: 2rem;
+}
+.about {
+  background: url(../img/about/bg-1.jpg) center center no-repeat;
+  background-size: cover;
+  padding: 10rem 0rem;
+}
+.about-info {
+  text-align: center;
+}
+.about-info h2 {
+  font-family: 'Vollkorn', serif;
+  font-size: 5rem;
+  padding-bottom: 0;
+  margin: 0;
+}
+.about-info span {
+  font-size: 2.4rem;
+  font-family: 'Alegreya', serif;
+  color: #a47d5e;
+}
+.about-info p {
+  font-family: 'ProximaNova', sans-serif;
+  text-align: justify;
+  margin-top: 2rem;
+  font-size: 2rem;
+  line-height: 4rem;
+}
+.about-image {
+  text-align: center;
+}
+.about-image img {
+  border-radius: 1.5rem;
+}
+.services {
+  background: url(../img/services/bg.jpg) center center no-repeat;
+  background-size: cover;
+  padding: 4rem 0rem;
+  color: #ffffff;
+}
+.services .section-header {
+  text-align: center;
+}
+.services .section-header h2 {
+  font-family: 'Vollkorn', serif;
+  font-size: 5rem;
+}
+.services .section-header p {
+  color: #a47d5e;
+  font-family: 'Alegreya', serif;
+  font-size: 2rem;
+  padding: 0rem 0rem 2rem;
+}
+.services-block .item {
+  padding: 2rem;
+  text-align: center;
+}
+.services-block .item img {
+  width: 90px;
+  padding-bottom: 1rem;
+}
+.services-block .item p {
+  font-family: 'ProximaNova', sans-serif;
+  font-size: 1.6rem;
+}
+@media (max-width: 1199px) {
+  .about-info h2 {
+    font-size: 4rem;
+  }
+}
+@media (max-width: 991px) {
+  .main .header-logo {
+    font-size: 2.1rem;
+  }
+  .main .header-nav {
+    padding-top: 0.2rem;
+    font-size: 1.5rem;
+  }
+  .main-content {
+    padding: 5rem 0rem;
+  }
+  .main-content-head {
+    text-align: center;
+    padding: 0rem 5rem;
+  }
+  .main-content-head p {
+    padding: 2rem 10rem;
+  }
+  .about-info p {
+    padding: 2rem 12rem 1rem;
+  }
+}
+@media (max-width: 767px) {
+  .main .header {
+    margin: 0;
+    text-align: center;
+  }
+  .main .header-nav ul {
+    text-align: center;
+    padding: 0;
+    font-size: 1.5rem;
+  }
+  .main-content-head h1 {
+    font-size: 3rem;
+  }
+  .main-content-head p {
+    padding: 2rem 0rem;
+    text-align: justify;
+  }
+  .main-content-contacts {
+    font-size: 1.8rem;
+  }
+  .main-content-contacts button {
+    margin-top: 2rem;
+  }
+  .about-info p {
+    padding: 0;
+  }
+  .about-image img {
+    width: 400px;
+  }
+}
+@media (max-width: 376px) {
+  .about {
+    padding-top: 5rem;
+  }
+  .about-info h2 {
+    font-size: 3rem;
+  }
+  .about-info span {
+    font-size: 2rem;
+  }
+  .about-info p {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+  .about-image {
+    padding-top: 2rem;
+  }
+  .about-image img {
+    width: 300px;
+  }
+}
